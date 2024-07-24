@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73795148916",
+    "project_id": "online-learning-e2ecc",
+    "storage_bucket": "online-learning-e2ecc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73795148916:android:1f36dc0f64fa0aa64b8521",
+        "android_client_info": {
+          "package_name": "com.example.primecoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73795148916-d1pcdmq8t0o0hulr7bcjnr6m7bif0one.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDzXBdNvowQHAOsRYKmOLJLVGMTgQCocQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73795148916-d1pcdmq8t0o0hulr7bcjnr6m7bif0one.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

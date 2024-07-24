@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/notepad" android:title="Notepad"></item>
+    <item android:id="@+id/compiler" android:title="Online Compiler"></item>
+    <item android:id="@+id/e_book" android:title="E Books"></item>
+    <item android:id="@+id/setting" android:title="Settings"></item>
+    <item android:id="@+id/logout" android:title="LOG OUT"></item>
+    <item android:id="@+id/about" android:title="About"></item>
+
+</menu>

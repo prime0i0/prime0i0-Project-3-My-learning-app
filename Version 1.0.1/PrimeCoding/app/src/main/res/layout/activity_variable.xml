@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".keywords">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/artical_headind"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/padding"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="bold"
+        android:text="@string/article_string"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/artical_subheadind"
+        android:layout_below="@+id/artical_headind"
+        android:padding="@dimen/padding"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:text="@string/c_variables_constants"
+        android:background="@color/colorPrimaryDark"
+        />
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/variable"
+        android:layout_below="@+id/artical_subheadind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

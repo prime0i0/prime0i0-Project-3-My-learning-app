@@ -1,0 +1,130 @@
+<resources>
+    <!--All the string resources come here including Questions and title -->
+    <string name="app_name">C Programming :: Functions</string>
+    <string name="correct"><b>CORRECTNESS IS</b> \n
+						<b>%1$d</b> OUT OF 10</string>
+    <string name="true_text">true</string>
+    <string name="false_text">false</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+    <string name="a">A function cannot be defined inside another function</string>
+    <string name="b">Functions cannot return more than one value at a time</string>
+    <string name="c">If return type for a function is not specified, it defaults to int</string>
+    <string name="d">In C all functions except main() can be called recursively.</string>
+    <string name="e">Functions can be called either by value or reference</string>
+    <string name="f">A function may have any number of return statements each returning different values.</string>
+    <string name="g">Names of functions in two different files linked together must be unique</string>
+    <string name="h">C programs are converted into machine language with the help of a program called Editor.</string>
+    <string name="i">Spaces and commas are allowed in a variable name</string>
+    <string name="j">The maximum value that an integer constant can have varies from one compiler to another</string>
+    <string name="next_text">next</string>
+
+
+    <string name="remind_to_take_a_break">Remind me to take a break</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="remind_me">Remind me to take a break</string>
+    <string name="remind_me_for_bed_time">remind_me_for_bed_time</string>
+    <string name="remind_for_bed_time">Remind me for bed time</string>
+    <string name="limit_data_usage">prefs_limit_data_usage</string>
+    <string name="stream_video">Only stream HD video on Wi-Fi</string>
+    <string name="limit_mobile_usage">Limit mobile data usage</string>
+    <string name="double_tap_to_seek">Double-tap to seek</string>
+    <string name="pref_seek_val">pref_seek_val</string>
+    <string name="seconds">seconds</string>
+    <string name="uploads">Uploads</string>
+    <string name="pref_uploads">pref_uploads</string>
+    <string name="specify_network_prefs">Specify network preferences for uploads</string>
+    <string name="prefs_restricted_mode">prefs_restricted_mode</string>
+    <string name="restricated_mode">Restricted Mode can help to hide videos with potentially mature content.No filter is 100% accurate, but it should help you to avoid most of this type of content.</string>
+    <string name="restricated_mode_description">Restricted Mode</string>
+    <string name="prefs_enable_stats">prefs_enable_stats</string>
+    <string name="enable_stats">Enable stats for nerds</string>
+    <string name="article_string">C Introduction</string>
+    <string name="article_subheading">Introduction / Overview</string>
+    <string name="paragraph"><b>Overview</b>
+        \n\n\t\tC is an imperative, procedural language in the ALGOL tradition. \nIt has a static type system. In C, all executable code is contained within subroutines (also called "functions", though not in the sense of functional programming). \nFunction parameters are passed by value, although arrays are passed as pointers, i.e. the address of the first item in the array. \nPass-by-reference is simulated in C by explicitly passing pointers to the thing being referenced.
+        \n\n\t\tC program source text is free-format, \nusing the semicolon as a statement separator and curly braces for grouping blocks of statements.
+        \n\n\t\tThe C language also exhibits the following characteristics:
+        \n\n\t1. The language has a small, fixed number of keywords, including a full set of control flow primitives: if/else, for, do/while, while, and switch. \nUser-defined names are not distinguished from keywords by any kind of sigil.
+        \n\n\t2. It has a large number of arithmetic, bitwise, and logic operators: +,+=,++,||, etc.
+        \n\n\t3. More than one assignment may be performed in a single statement.
+        \n\n\t4. Functions:
+        \n\t\u2022    Function return values can be ignored, when not needed.
+        \n\t\u2022    Function and data pointers permit ad hoc run-time polymorphism.
+        \n\t\u2022    Functions may not be defined within the lexical scope of other functions.
+        \n\t\u2022    Variables may be defined within a function, with scope.
+        \n\t\u2022    A function may call itself, so recursion is supported.
+        \n\n\t5. Data typing is static, but weakly enforced; all data has a type, but implicit conversions are possible.
+        \n\n\t6. User-defined (typedef) and compound types are possible.
+        \n\t\u2022    Heterogeneous aggregate data types (struct) allow related data elements to be accessed and assigned as a unit.
+        \n\t\u2022    Union is a structure with overlapping members; only the last member stored is valid.
+        \n\t\u2022    Array indexing is a secondary notation, defined in terms of pointer arithmetic. \nUnlike structs, arrays are not first-class objects: they cannot be assigned or compared using single built-in operators. \nThere is no "array" keyword in use or definition; instead, square brackets indicate arrays syntactically, for example month.
+        \n\t\u2022    Enumerated types are possible with the enum keyword. They are freely interconvertible with integers.
+        \n\t\u2022    Strings are not a distinct data type, but are conventionally implemented as null-terminated character arrays.
+        \n\n\t7. Low-level access to computer memory is possible by converting machine addresses to pointers.
+        \n\n\t8. Procedures (subroutines not returning values) are a special case of function, with an untyped return type void.
+        \n\n\t9. Memory can be allocated to a program with calls to library routines.
+        \n\n\t10. A preprocessor performs macro definition, source code file inclusion, and conditional compilation.
+        \n\n\t11. There is a basic form of modularity: files can be compiled separately and linked together, \nwith control over which functions and data objects are visible to other files via static and extern attributes.
+        \n\n\t12. Complex functionality such as I/O, string manipulation, \nand mathematical functions are consistently delegated to library routines.
+        \n\n\t13. The generated code after compilation has relatively straightforward needs on the underlying platform, \nwhich makes it suitable for creating operating systems and for use in embedded systems.
+        \n\n\t\tWhile C does not include certain features found in other languages (such as object orientation and garbage collection), \nthese can be implemented or emulated, often through the use of external libraries \n(e.g., the GLib Object System or the Boehm garbage collector).
+
+    </string>
+    <string name="c_keywords_and_identifiers">C Keywords and Identifiers</string>
+    <string name="c_variables_constants">C Variables, Constants</string>
+    <string name="c_data_types">C Data Types</string>
+    <string name="c_input_output_i_o">C Input Output (I/O)</string>
+    <string name="c_comments">C Comments</string>
+    <string name="c_programming_operators">C Programming Operators</string>
+    <string name="c_introduction_examples">C Introduction Examples</string>
+    <string name="hey_learner">Hey Learner !</string>
+    <string name="find_a_topic_you_want_to_learn">Find a Topic you want to learn</string>
+    <string name="search_for_topics">Search for Topics</string>
+    <string name="categories">Categories</string>
+    <string name="x">X</string>
+    <string name="pavan_singh_prime">Pavan Singh Prime</string>
+    <string name="prayagraj_india">Prayagraj,India</string>
+    <string name="blank">blank</string>
+    <string name="follow_me">Follow Me</string>
+    <string name="t_t_t_t_t_tdashboard_n_currently_unavailable">\t\t\t\t\t\tDashboard \n currently Unavailable</string>
+
+    <string-array name="pref_upload_quality_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Original</item>
+    </string-array>
+
+    <string-array name="pref_remind_me_to_take_a_break">
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>5 hours</item>
+        <item>10 hours</item>
+    </string-array>
+
+    <string-array name="pref_seek_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="pref_duration">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_uploads">
+        <item>Only when on Wi-Fi</item>
+        <item>On any network</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
